@@ -1,0 +1,91 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #495057;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #343a40;
+}
+
+main {
+  padding: 30px;
+}
+
+.member-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.member-item {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+}
+
+.member-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.member-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.member-details h3 {
+  margin: 0;
+}
+
+.member-details p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
